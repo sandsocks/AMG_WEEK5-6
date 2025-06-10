@@ -156,6 +156,9 @@ MonoBehaviour:
   - {fileID: 3450895657664714647, guid: 1fa03a072776e49589f78f26078e6ac7, type: 3}
   - {fileID: 9103724736054679900, guid: 408489c40c2094cdf91c3358ffb7f876, type: 3}
   - {fileID: 7640780226382824646, guid: 41617882fd3544dbe8471c917df8475a, type: 3}
+  housePrefab: {fileID: 5958316442239806738, guid: 33dd7643a2e11463cbf445ab0bc38f2a, type: 3}
+  treePrefab: {fileID: 6148617927655829187, guid: d929615b0b4404e2b97f942ebc4fbc4b, type: 3}
+  score: {fileID: 0}
   spawnedTiles: []
 --- !u!4 &25568785
 Transform:
@@ -472,9 +475,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1434980795}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0012739b254bb4d89bfa6a13b1dae4d7, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e52a6a4b57894a16ba56c7b7ebc879d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tilePrefabs: []
+  housePrefab: {fileID: 0}
+  treePrefab: {fileID: 0}
+  score: {fileID: 0}
+  spawnedTiles: []
 --- !u!4 &1434980797
 Transform:
   m_ObjectHideFlags: 0
