@@ -9,11 +9,28 @@ public class BoardManager : MonoBehaviour
     public GameObject[] tilePrefabs;    //Array of tile prefabs (e.g. Dire, Desert)
     public GameObject housePrefab;      //Prefab for the houses the player places
     public GameObject treePrefab;      //Prefab for trees to be planted
+    public GameObject fishPrefab;
+    public GameObject swordPrefab;
+    public GameObject camelPrefab;
+    public GameObject flowerPrefab;
+    public GameObject bugPrefab;
     public Text score;                  //Reference for UI Text for displaying score
     GameObject[] tiles;                 //Internal array to hold the instantiated tiles
     public List<GameObject> spawnedTiles = new List<GameObject>();
-    long dirtBB = 0;                    //Bitboard for dirt
-    long treeBB = 0;                    //Bitboard for our tree
+    long dirtBB = 0;                    //tree
+    long desertBB = 0;                  //camel
+    long grainBB = 0;                   //tree
+    long pastureBB = 0;                 //flower
+    long waterBB = 0;                   //fish
+    long woodsBB = 0;                   //bug
+    long rockBB = 0;                    //sword
+
+    long treeBB = 0;                    //dirt
+    long camelBB = 0;                   //desert
+    long swordBB = 0;                   //rock
+    long flowerBB = 0;                  //pasture
+    long fishBB = 0;                    //water
+    long bugBB = 0;                     //woods
 
     void Start()
     {

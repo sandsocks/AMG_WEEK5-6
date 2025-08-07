@@ -1,0 +1,41 @@
+# Exported from Nomad Sculpt
+
+newmtl Carpeta
+ map_Kd Carpeta-color.png
+ map_roughness Carpeta-roughness.png
+ map_Pr Carpeta-roughness.png
+ map_metallic Carpeta-metallic.png
+ map_Pm Carpeta-metallic.png
+ Kd 1.000000 1.000000 1.000000
+ Pr 0.250000
+ Pm 0.000000
+
+newmtl Carpeta_04
+ map_Kd Carpeta_04-color.png
+ map_roughness Carpeta_04-roughness.png
+ map_Pr Carpeta_04-roughness.png
+ map_metallic Carpeta_04-metallic.png
+ map_Pm Carpeta_04-metallic.png
+ Kd 1.000000 1.000000 1.000000
+ Pr 0.250000
+ Pm 0.000000
+
+newmtl Carpeta_01_(1)
+ map_Kd Carpeta_01_(1)-color.png
+ map_roughness Carpeta_01_(1)-roughness.png
+ map_Pr Carpeta_01_(1)-roughness.png
+ map_metallic Carpeta_01_(1)-metallic.png
+ map_Pm Carpeta_01_(1)-metallic.png
+ Kd 1.000000 1.000000 1.000000
+ Pr 0.250000
+ Pm 0.000000
+
+newmtl Cuerpo_19_(1)
+ map_Kd Cuerpo_19_(1)-color.png
+ map_roughness Cuerpo_19_(1)-roughness.png
+ map_Pr Cuerpo_19_(1)-roughness.png
+ map_metallic Cuerpo_19_(1)-metallic.png
+ map_Pm Cuerpo_19_(1)-metallic.png
+ Kd 1.000000 1.000000 1.000000
+ Pr 0.250000
+ Pm 0.000000
