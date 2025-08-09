@@ -87,6 +87,7 @@ public class BoardManager : MonoBehaviour
         InvokeRepeating("PlantFlower", 0.25f, 0.25f);
         InvokeRepeating("PlantBug", 0.25f, 0.25f);
         InvokeRepeating("PlantSword", 0.25f, 0.25f);
+        InvokeRepeating("PlantHouse", 0.25f, 0.25f);
     }
 
     void PrintBB(string name, long BB)
@@ -150,7 +151,7 @@ public class BoardManager : MonoBehaviour
             GameObject camel = Instantiate(camelPrefab);
             camel.transform.parent = spawnedTiles[rr * 8 + rc].transform;
             camel.transform.localPosition = Vector3.zero;
-            camelBB = SetCellState(treeBB, rr, rc);
+            camelBB = SetCellState(camelBB, rr, rc);
         }
     }
 
