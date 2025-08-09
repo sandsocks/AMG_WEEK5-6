@@ -158,10 +158,11 @@ MonoBehaviour:
   - {fileID: 7640780226382824646, guid: 41617882fd3544dbe8471c917df8475a, type: 3}
   housePrefab: {fileID: 5958316442239806738, guid: 33dd7643a2e11463cbf445ab0bc38f2a, type: 3}
   treePrefab: {fileID: 6148617927655829187, guid: d929615b0b4404e2b97f942ebc4fbc4b, type: 3}
-  fishPrefab: {fileID: 0}
-  swordPrefab: {fileID: 0}
-  camelPrefab: {fileID: 0}
-  flowerPrefab: {fileID: 0}
+  fishPrefab: {fileID: 1049863328609964645, guid: 176b570023610ff4993669ed2fe09128, type: 3}
+  swordPrefab: {fileID: 5011412377574543757, guid: 001d7384e0a48ba45bf96b1357d9f2cc, type: 3}
+  camelPrefab: {fileID: 919132149155446097, guid: 5f1ad6c53b9a5044abed9b186f24e010, type: 3}
+  flowerPrefab: {fileID: 5577792994936993015, guid: 890b45c2abd65c14180c1131ea74266c, type: 3}
+  bugPrefab: {fileID: 1296189699422274239, guid: d47d79824f90f3341bfcfe923d62ef6b, type: 3}
   score: {fileID: 0}
   spawnedTiles: []
 --- !u!4 &25568785
@@ -836,6 +837,7 @@ MonoBehaviour:
   swordPrefab: {fileID: 0}
   camelPrefab: {fileID: 0}
   flowerPrefab: {fileID: 0}
+  bugPrefab: {fileID: 0}
   score: {fileID: 0}
   spawnedTiles: []
 --- !u!4 &1434980797
@@ -1045,7 +1047,7 @@ Transform:
   m_GameObject: {fileID: 2120685468}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.45135328, y: 22.900059, z: 0.03922321}
+  m_LocalPosition: {x: 331.4, y: 22.900059, z: 0.03922321}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
